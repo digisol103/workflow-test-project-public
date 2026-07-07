@@ -13,4 +13,4 @@ This repository is used to test a professional Git workflow, including branches,
 
 The goal is to test the full workflow before applying it to real company projects.
 
-Developer workflow test change22  .
+Developer workflow test change.
