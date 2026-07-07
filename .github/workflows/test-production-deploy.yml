@@ -1,0 +1,16 @@
+name: Test Production Deployment Trigger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print deployment message
+        run: |
+          echo "Production deployment workflow triggered successfully."
+          echo "This is a test only. No server deployment is executed."
